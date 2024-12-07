@@ -15,20 +15,20 @@
 from __future__ import absolute_import
 
 # import apis into sdk package
-from swagger_client.api.matchdata_api import MatchdataApi
+from openligadb.api.matchdata_api import MatchdataApi
 # import ApiClient
-from swagger_client.api_client import ApiClient
-from swagger_client.configuration import Configuration
+from openligadb.api_client import ApiClient
+from openligadb.configuration import Configuration
 # import models into sdk package
-from swagger_client.models.bl_table_team import BlTableTeam
-from swagger_client.models.global_result_info import GlobalResultInfo
-from swagger_client.models.goal import Goal
-from swagger_client.models.goal_getter import GoalGetter
-from swagger_client.models.group import Group
-from swagger_client.models.league import League
-from swagger_client.models.location import Location
-from swagger_client.models.match import Match
-from swagger_client.models.match_result import MatchResult
-from swagger_client.models.result_info import ResultInfo
-from swagger_client.models.sport import Sport
-from swagger_client.models.team import Team
+from openligadb.models.bl_table_team import BlTableTeam
+from openligadb.models.global_result_info import GlobalResultInfo
+from openligadb.models.goal import Goal
+from openligadb.models.goal_getter import GoalGetter
+from openligadb.models.group import Group
+from openligadb.models.league import League
+from openligadb.models.location import Location
+from openligadb.models.match import Match
+from openligadb.models.match_result import MatchResult
+from openligadb.models.result_info import ResultInfo
+from openligadb.models.sport import Sport
+from openligadb.models.team import Team
