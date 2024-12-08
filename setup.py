@@ -13,7 +13,7 @@
 from setuptools import setup, find_packages  # noqa: H301
 
 NAME = "openligadb_python_client"
-VERSION = "0.0.7"
+VERSION = "1.0.7"
 # To install the library, run the following
 #
 # python setup.py install
